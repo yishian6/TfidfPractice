@@ -1,0 +1,52 @@
+        .h1_s {
+            text-align: center;
+        }
+
+        .image {
+            width: 200px;
+            height: 120px;
+
+            background-position: center;
+        }
+
+        body {
+            background-image: url("../image/back.png");
+        }
+        #textId {
+            font-size: 18px;
+            font-family: "Microsoft YaHei UI", serif;
+            width: 400px;
+            height: 30px;
+            border: 3px solid skyblue;
+            background-color: azure;
+            border-radius: 10px;
+            text-indent: 10px; /* 首行缩进10px */
+        }
+
+        #findButton {
+            /* 设置合适的按钮的长和宽 */
+            width: 80px;
+            /* height: 30px; */
+            text-transform: uppercase;
+            border: 3px solid antiquewhite; /* 设置按钮的边界粗细和颜色 */
+            margin-top: 18px; /* 设置合适的上部外框的宽度，增加与上面的password框的距离 */
+            text-align: center;
+            font-size: 18px; /* 修改按钮文字的大小 */
+            /* 设置按钮里面字体颜色 */
+            color: white;
+            line-height: 35px;
+            border-radius: 10px; /* 将按钮的左右边框设置为圆弧 */
+            cursor: pointer;
+            /* 圆角弧度24px */
+            transition: 0.2s;
+            background-color: skyblue;
+        }
+
+        #div_box {
+            width: 1000px;
+            text-align: left; /* 设置向左对齐 */
+            text-indent: 2em; /* 设置首行缩进 */
+            margin-left: auto;
+            margin-right: auto;
+            background-color: aliceblue;
+        }
